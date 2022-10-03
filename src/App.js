@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from "./components/HelloWorld";
-import Tick from "./components/Tick"
+import Clock from "./components/Clock"
+import LoginControl from "./components/LoginControl";
 
 function App() {
     return (
         <div>
             <HelloWorld />
-            <Tick />
+            <Clock />
+            <LoginControl />
         </div>
     );
 }

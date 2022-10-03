@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Tick extends React.Component {
+class Clock extends React.Component {
 
     constructor(props) {
         super(props);
@@ -35,4 +35,4 @@ class Tick extends React.Component {
     }
 }
 
-export default Tick;
+export default Clock;
