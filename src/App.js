@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from "./components/HelloWorld";
 import Clock from "./components/Clock"
 import LoginControl from "./components/LoginControl";
+import Calculator from "./tempcalc/Calculator";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <HelloWorld />
             <Clock />
             <LoginControl />
+            <Calculator />
         </div>
     );
 }

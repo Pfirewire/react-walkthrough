@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Greeting from "./Greeting";
+import styled from "styled-components";
 
 function LoginButton(props) {
     return (
@@ -11,11 +12,15 @@ function LoginButton(props) {
 
 function LogoutButton(props) {
     return (
-        <button onClick={props.onClick}>
+        <LogoutButtonWrapper onClick={props.onClick}>
             Logout
-        </button>
+        </LogoutButtonWrapper>
     );
 }
+
+const LogoutButtonWrapper = styled.button`
+    color: blue;
+`;
 
 class LoginControl extends React.Component {
     constructor(props) {
